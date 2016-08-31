@@ -1,0 +1,16 @@
+#navbar {
+    background-color: gray;
+    text-align: center;
+}
+#navbar a{
+    color: #cae1ff; 
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 20px; 
+    font-size: 20px;
+    border: 12px ridge blue;
+}
+
+#aboutme {

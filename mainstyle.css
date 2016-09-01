@@ -13,4 +13,14 @@
     border: 12px ridge blue;
 }
 
-#aboutme {
+
+#topOfPage{
+    background-color:grey;
+    position:absolute;
+    top:0%;
+    width:100%;
+}
+body {
+    background-image: url("http://www.dropinbrewing.com/wp-content/uploads/2013/08/Supermassive_black_hole.jpeg");
+    background-color: #cccccc;
+}

@@ -9,7 +9,7 @@
 #navbar li {
     display: inline-block;
     padding: 20px; 
-    font-size: 20px;
+    font-size: 30px;
     border: 12px ridge blue;
 }
 
@@ -21,6 +21,18 @@
     width:100%;
 }
 body {
-    background-image: url("http://www.dropinbrewing.com/wp-content/uploads/2013/08/Supermassive_black_hole.jpeg");
+    background-image: url("https://static.pexels.com/photos/1380/black-and-white-city-skyline-buildings.jpg");
     background-color: #cccccc;
+}
+
+#test{
+    /*margin-left:auto;*/
+    /*margin-right: auto;*/
+    height:300px;
+    width:300px;
+    text-align: center;
+    border:12px ridge blue;
+/*    padding: 20px;*/
+/*    display: inline-block;
+*/    margin:auto;
 }

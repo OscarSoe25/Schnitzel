@@ -57,3 +57,17 @@ body {
     border:12px ridge blue;
     margin: 50px;
 }
+
+#hey{
+    width: 400px;
+    text-align: center;
+    border:12px ridge blue;
+    margin: auto;
+}
+
+#underwatersquad{
+    width:800px;
+    text-align: center;
+    border:12px ridge blue;
+    margin:auto;
+}

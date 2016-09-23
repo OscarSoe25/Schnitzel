@@ -64,7 +64,7 @@ body {
     width: 400px;
     text-align: center;
     border:12px ridge blue;
-    float:left ;
+    margin:auto ;
 }
 
 #underwatersquad{

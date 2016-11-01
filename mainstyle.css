@@ -87,3 +87,16 @@ body {
     border:12px ridge blue;
     margin: auto;
 }
+
+
+#math{
+    width:600px;
+    height:150px;
+    text-align:center;
+    border:12px ridge blue;
+    margin: auto;
+    background-color: gray;
+    
+    
+    
+}

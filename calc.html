@@ -13,9 +13,12 @@
     color:blue;
     font-size:40px;
     text-align:center;
-
 }
+#ans{
+    font-size:15px;
     
+    
+}    
 </style>
 
 <body>
@@ -40,24 +43,29 @@
 <div id="math">
 <form>
     <br>
-        <input type="text" name="1"/>
-            <select>
+        <input id="num1" type="text" name="1"/>
+            <select id="drop">
                 <option value="+"> +</option>
                 <option value="-"> -</option>
                 <option value="/"> /</option>
                 <option value="*">*</option>
             </select>
-        <input type="text" name="2"/>
-        <button type="button"> Calculate</button>
-    <input type="text" name="3"/> 
+        <input id="num2" type="text" name="2">
+        <button id="button" type="button"> Calculate</button>
+        <br>
+        
+<!--Create a div for answer-->        
     
-    <!-- <input name="1" input="+" input name="2"> -->
+        <p id="ans">Answer</p> 
+       <p id="ans1"> </p>
 
 </form>
 </div> 
 
 <p> </p>
 
+
+<script type="text/javascript" src="math.js"></script>
 </body>
 </html>
 

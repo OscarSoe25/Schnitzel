@@ -96,11 +96,14 @@ body {
     border:12px ridge blue;
     margin: auto;
     background-color: gray;
-    
-    
-    
 }
 
+#screenshots2{
+    text-align:left;
+    border:12px ridge blue;
+    float:right;
+    width:700px;
+}
 
 /*#list{
     height: 250px;
@@ -111,3 +114,19 @@ body {
     border:12px ridge blue;
     
 }*/
+
+#overview{
+    border:12px ridge blue;
+    width: 500px;
+    margin: auto;
+    background-color: gray;
+    font-size: 20px;
+}
+
+#code{
+    border:12px ridge blue;
+    width: 1000px;
+    margin: auto;
+    background-color:gray;
+    
+}

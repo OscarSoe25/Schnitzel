@@ -1,0 +1,90 @@
+<!doctypehtml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+     <link rel="stylesheet" href="mainstyle.css" type="text/css" />
+     <style>
+        #h01{
+        font-size: 40px;
+        color:blue;
+        /*display: inline;*/
+        /*background-color: gray; */
+        text-align:center;
+        /*line-height: 50px;*/
+    }
+    
+    #bot{
+        text-align:center;
+    }
+    
+    #explain{
+        text-align:center;
+        color:Black;
+        font-size: 35px;
+    }
+         
+     </style>
+</head>
+<body>
+    
+     <div id = "topOfPage">
+        <h1 id="h01"> My Website</h1>
+        <!-- Navbar Starts here-->
+
+        <ul id="navbar">
+            <li> <a href="index.html"> About Me</a></li>
+            <li> <a href="hardware.html"> Hardware</a></li>
+            <li> <a href="howto.html"> How To</a></li>
+            <li> <a href="#">Big Projects </a></li>
+            <li> <a href="#">vindinium </a></li>
+            <li> <a href="calc.html"> Calculator</a></li>
+            <li> <a href="todo.html"> Todo List</a></li>
+        </ul>
+        <!-- Navbar Ends Here-->
+    </div>
+    
+    <h1 id="bot">My Vindinium Bot</h1>
+    <p id="overview">Vindinium is a game made where we make bots to battle other bots to fight for the free the land of vindinium.
+    There are mines the bots collects to gain coins and the bot with the most coins will win the battle.
+    The bots can also kill other bots and when a bot kills another bot, it can take the mine of the bot that it killed
+    for itself. So you can be passive and collect free mines or be agressivge and attack other bots to gain their mines. But whenever you
+    collect mines or kill people or just stand still you lose health, so there are taverns where the bots can go to gain back the health.</p>
+    <br>
+    <br>
+    <div id="code">
+        <h2 id="explain">The Code</h2>
+        <p> The first code added to is where the bots are going to battle. The bots can battle other people's bots 
+        or go against computer generated bots.</p>
+        
+        <center><img src="pictures/arena.png" width:"90%";></img></center>
+        
+        <p>The next code is to find the positions of the enemy bots and to find your own bots positions</p>
+        <center><img src="pictures/positionofbots.png" width:"90%";></img></center>
+        
+        <p> This next code is the task that the bot is suppose to take. The task is based on different conditions that the bot might face. Such as going to a tavern. Create an if statement then write the condition of when the bot goes to a tavern. So if the bot has less than 50 health go to a tavern, using the condition "bot.yourBot.life <= 50" and then have the task "go to tavern".</p>
+        <center><img src="pictures/task.png" width:"90%";></img></center>
+        <p> But you can just set a task and except the bot to do it. You need to write the code for how the bot will do that task. That means more if/else statements with more conditionals. The if statements tells the how to do and in what way and also when. You can set up the conditional anyway you want. You go to a tavern when your health is at 50 or if there is another bot nearby. You can do it however you want. These are all my "if statements" for how to do a task. </p>
+        <center><img src="pictures/statements.png" width:"90%";></img></center>
+        <p> For my bot I affed a special code that has my bot attack an enemy bot who has the most mines. Since I am still working on it, it not working quite the way I want it to. So it works but it's not fully finished. The code is design to target a bot with the most mines and with the help of Sam the TA, we got it somewhat work. The first one is to identify the bot with the most mines. The second one is who the task works and it tells the bot how to do it. </p>
+        <center><img src="pictures/specialcode.png" width="90%";></img></center>
+        <br>
+        <center><img src="pictures/weird.png" width="90%"></img></center>
+        
+        
+        
+    </div>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

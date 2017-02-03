@@ -6,6 +6,7 @@ var newtext = document.getElementById("newtext")
 
 var addbutton = document.getElementById("addbutton")
 
+var cleartext = document.getElementById("cleartext")
 
 
 
@@ -29,4 +30,13 @@ newtext.addEventListener("click", function(evt){
  
  addedtext.parentNode.removeChild(addedtext);
     
+});
+
+
+cleartext.addEventListener("click", function(evt){
+ 
+ var cleartext = evt.text;
+ 
+ cleartext.parentNode.removeChild(addedtext);
+ 
 });

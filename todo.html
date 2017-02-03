@@ -9,8 +9,17 @@
 </head>
 
 <style>
-  
-      
+
+#h01{
+    text-align:center;
+    color:blue;
+    font-size:40px;
+    
+}
+
+#list{
+    text-align:center;
+}
   
   
     
@@ -27,6 +36,7 @@
             <li> <a href="#">Big Projects </a></li>
             <li> <a href="#">vindinium </a></li>
             <li> <a href="calc.html"> Calculator</a></li>
+            <li> <a href="todo.html"> Todo List</a></li>
         </ul>
         <!-- Navbar Ends Here-->
     </div>
@@ -44,8 +54,11 @@
             <option value="black">Black</option>
         </select>
         
-        
-    <input id="addbutton" type="button" value="add"></input>
+<!--There is a add text button and a clear all button-->
+
+    <input id="addbutton" type="button" value="Add"></input>
+    
+    <input id="cleartext" type="button" onclick="cleartext" value="Clear"/>
     <p>Click on text to remove</p>
 
     
@@ -53,6 +66,15 @@
 
 
 </div>
+
+<script>
+function newtext(){
+    document.getElementById("newtext").reset();    
+    
+    
+}
+
+</script>
 
 
 <script type="text/javascript" src="todo.js"></script>

@@ -1,19 +1,19 @@
-var usertext = document.getElementById("usertext")
+var usertext = document.getElementById("usertext");
 
-var colordrop= document.getElementById("colordrop")
+var colordrop= document.getElementById("colordrop");
 
-var newtext = document.getElementById("newtext")
+var newtext = document.getElementById("newtext");
 
-var addbutton = document.getElementById("addbutton")
+var addbutton = document.getElementById("addbutton");
 
-var cleartext = document.getElementById("cleartext")
+var cleartext = document.getElementById("cleartext");
 
 
 
 
 addbutton.addEventListener("click", function(){
 
-var color = colordrop.value
+var color = colordrop.value;
 
 var task = "<div style='color:"+color+"'>"+usertext.value+"</div>";
 

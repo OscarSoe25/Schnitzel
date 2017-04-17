@@ -130,3 +130,11 @@ body {
     background-color:gray;
     
 }
+
+#calchowto{
+    border:12px ridge blue;
+    width: 500px;
+    margin: auto;
+    float: left;
+    background-clip: gray;
+}

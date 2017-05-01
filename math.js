@@ -41,6 +41,16 @@ button.addEventListener("click", function() {
      answer1.innerHTML = (number1) * (number2);
          
      }
+     else if (operation === "%") {
+         
+    answer1.innerHTML = (number1) % (number2);
+    
+    }
+// Math.pow lets people do exponents 
+    else if (operation === "Math.pow") {
+        
+    answer1.innerHTML = Math.pow(number1, number2);
+    }
 });
 
 

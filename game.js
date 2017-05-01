@@ -240,7 +240,7 @@ function gameLoop() {
     for (var i = 0; i < bulletArray.length; i++) {
         bulletArray[i].update();
         // if (isbulletCollide (bullet, Enemy[i])) {
-        };
+        
     }
 
     for (var i = 0; i < walls.length; i++) {
@@ -265,7 +265,7 @@ function gameLoop() {
     // console.log(walls);
 
     window.requestAnimationFrame(gameLoop);
-
+}
 gameLoop();
 
 
